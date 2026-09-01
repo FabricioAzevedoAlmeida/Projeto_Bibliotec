@@ -210,3 +210,39 @@ a {
     color: var(--branco);
 }
 
+/* Seção top livros */
+
+.livro-recomendados {
+    padding: 50px 120px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 100px;
+}
+
+.livro  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.livro img {
+     /*erro*/
+     display: flex;
+}
+
+.livro h3 {
+    font-size: 1.2em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.top-livros {
+    display: flex;
+}
+
