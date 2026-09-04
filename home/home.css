@@ -1,38 +1,4 @@
- /* CABEÇALHO */
 
-a {
-    color: var(--branco);
-    text-decoration: none;
-}
-
-.cabecalho {
-    background-color: var(--azul-escuro);
-
-    display: flex;
-
-    justify-content: space-between;
-
-    align-items: center;
-
-    padding: 0 120px;
-
-    height: 10vh; /* 10% da visualização vertical do dispositivo */
-}
-
-.navegacao {
-    display: flex;
-    align-items: center;
-
-    gap: 50px;
-
-
-}
-
-.navegacao a {
-    text-transform: uppercase;
-    font-size: 1em; /* equivale a 16px */
-    font-weight: 500;
-}
 
 /* Conteúdo principal */
 
@@ -296,7 +262,6 @@ a {
 }
 
 .rodape span {
-    display: flex;
     width: 100%;
     height: 2px;
     background-color: var(--branco);
